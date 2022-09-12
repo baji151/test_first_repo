@@ -1,0 +1,16 @@
+git init					intialising git
+git add .					staging the changes
+git status					to know current status 
+git log						to know log history of git
+git branch <<branchname>>			to create alternare branch
+git checkout <<branchname>>			to change the current branch
+git merge <<branchname>>			to merge <<branchcname>>files into current branch
+git commit -m"<<commit message>>"		to commit the changes
+git remote add origin <<our repo url>>		to connect the our profile github
+git remote add upstream <<upstream repo url>>	to connect main github profile from where we forked the files
+git remote set-url origin <<url>>		to force change the existing url to new url
+git push origin <<branchname>>			to push the changes into github repo
+git remote -v					to check all connected repos
+git fetch --all --prune				to fetch the changes from upstream to origin
+git reset --hard <<origin/testbranch>>		to force changes into git folder from diffrent required repo branch
+git pull upstream <<branch name>>		to pull changes from repo to our git branch
